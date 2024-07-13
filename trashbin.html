@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trashbin | Turdetail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png" />
+  </head>
+
+  <body>
+    <div>
+      <div class="">
+        <nav class="navbar navbar-expand-lg top-nav">
+          <div class="container">
+            <a class="navbar-brand p-0" href="index.html">
+              <img src="./assets/images/logo.png" alt="turdetail logo" />
+            </a>
+            <button
+              class="navbar-toggler p-0 border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="wash-history.html">User </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="general-activity.html">Cleaner </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="request.html">Request Cleaning </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login-client.html">Sign In</a>
+                </li>
+                <li class="nav-item dropdown d-none">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Link
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="d-flex">
+                <div class="d-none">
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-light dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Sign Up
+                    </button>
+                    <ul
+                      class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end p-0 overflow-hidden"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item py-2"
+                          href="./client-signup.html"
+                        >
+                          <img
+                            src="./assets/images/icons/client.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          As User</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item py-2"
+                          href="./cleaner-signup.html"
+                        >
+                          <img
+                            src="./assets/images/icons/cleaner.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          As Cleaner</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="profile">
+                  <div class="dropdown">
+                    <button
+                      class="p-0 btn btn-link"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img
+                        src="./assets/images/avatar1.png"
+                        width="40"
+                        alt=""
+                        class="object-fit-contain"
+                      />
+                    </button>
+                    <ul
+                      class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end p-0 overflow-hidden"
+                    >
+                      <li>
+                        <div class="header">
+                          <h6 class="text-truncate fw-bold">Kwame Mensah</h6>
+                          <div class="d-flex justify-content-between">
+                            <div>
+                              <p class="fw-bold mb-0 small">Ratings</p>
+                              <p class="mb-0 small">4.8</p>
+                            </div>
+
+                            <div>
+                              <p class="fw-bold mb-0 small">Account Period</p>
+                              <p class="mb-0 small text-end">6months</p>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2" href="./payment.html">
+                          <img
+                            src="./assets/images/icons/client.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Payment</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2" href="#">
+                          <img
+                            src="./assets/images/icons/cleaner.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Messages</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2" href="#">
+                          <img
+                            src="./assets/images/icons/client.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Tax Info</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2" href="#">
+                          <img
+                            src="./assets/images/icons/cleaner.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Insurance</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2" href="#">
+                          <img
+                            src="./assets/images/icons/client.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Referral</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2" href="#">
+                          <img
+                            src="./assets/images/icons/cleaner.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Settings</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item py-2 text-danger"
+                          href="login-client.html"
+                        >
+                          <img
+                            src="./assets/images/icons/cleaner.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Logout</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="py-4 py-md-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-11 col-lg-7">
+              <div>
+                <div class="pb-5 border-success border-2">
+                  <div
+                    data-bs-toggle="collapse"
+                    href="#multiCollapseExample1"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="multiCollapseExample1"
+                  >
+                    <h4 class="text-success d-flex align-items-center mb-3">
+                      <img
+                        src="./assets/images/icons/arrow.png"
+                        width="10"
+                        class="d-inline-block me-2"
+                      />
+                      Saved Trashbin
+                    </h4>
+                  </div>
+                  <div
+                    class="collapse multi-collapse"
+                    id="multiCollapseExample1"
+                  >
+                    <div class="">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckDefault"
+                        />
+                        <label
+                          class="form-check-label w-100"
+                          for="flexCheckDefault"
+                        >
+                          <div class="g-3 row align-items-center">
+                            <div class="col-3 col-md-3">
+                              <div class="img-wrapper">
+                                <img
+                                  src="./assets/images/icons/bin1.png"
+                                  alt="car"
+                                  class="object-fit-cover border border-success border-2 rounded"
+                                />
+                              </div>
+                            </div>
+                            <div class="col-9 col-md-9">
+                              <div class="">
+                                <h6 class="mb-1">Size:</h6>
+                                <h6
+                                  class="text-success fw-bold border py-1 px-3 bg-light d-inline-block mb-2"
+                                >
+                                  Small
+                                </h6>
+                                <h6 class="mb-1">Quantity:</h6>
+                                <h6
+                                  class="text-success fw-bold border py-1 px-3 bg-light d-inline-block mb-2"
+                                >
+                                  2
+                                </h6>
+                                <h6 class="mb-1">Color:</h6>
+                                <h6
+                                  class="text-success fw-bold border py-1 px-3 bg-light d-inline-block mb-2"
+                                >
+                                  Green
+                                </h6>
+                                <div class="d-flex gap-3">
+                                  <button
+                                    class="btn btn-link text-info fw-bold text-decoration-none ps-0 d-flex align-items-center gap-1 btn-sm"
+                                  >
+                                    <img
+                                      src="./assets/images/icons/edit.svg"
+                                      width="18"
+                                      alt=""
+                                    />
+                                    Edit
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="mt-2 mb-2">
+                        <h6 class="text-center mb-1">
+                          Current state of vehicle same as initial uploads
+                        </h6>
+                        <div class="text-center">
+                          <div class="form-check form-check-inline">
+                            <input
+                              class="form-check-input inlineCheckbox1"
+                              type="radio"
+                              id="inlineCheckbox1-1"
+                              data-group="1"
+                              name="status1"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="inlineCheckbox1-1"
+                              data-group="1"
+                              >Yes</label
+                            >
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input
+                              class="form-check-input inlineCheckbox2"
+                              type="radio"
+                              id="inlineCheckbox2-1"
+                              data-group="1"
+                              name="status1"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="inlineCheckbox2-1"
+                              data-group="1"
+                              >No</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="upload12" data-group="1">
+                        <h6 class="text-center">
+                          Click below to upload current state of vehicle
+                        </h6>
+                        <div class="text-center">
+                          <button class="btn btn-success">Upload</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div>
+                    <div class="">
+                      <div
+                        data-bs-toggle="collapse"
+                        href="#multiCollapseExample2"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="multiCollapseExample2"
+                      >
+                        <h4 class="text-success d-flex align-items-center mb-3">
+                          <img
+                            src="./assets/images/icons/arrow.png"
+                            width="10"
+                            class="d-inline-block me-2"
+                          />
+                          Add Trashbin
+                          <img
+                            src="./assets/images/icons/plus-round.svg"
+                            width="25"
+                            class="ms-1"
+                            alt=""
+                          />
+                        </h4>
+                      </div>
+                      <div
+                        class="overflow-auto pb-4 pb-md-0 collapse multi-collapse"
+                        id="multiCollapseExample2"
+                      >
+                        <div
+                          class="btn-group vertical-select-options gap-3 add-trash-bin-parent-div"
+                          role="group"
+                          aria-label="Basic radio toggle button group"
+                        >
+                          <div>
+                            <input
+                              type="checkbox"
+                              class="btn-check form-check-input"
+                              name="btnradio"
+                              id="btnradio1"
+                              autocomplete="off"
+                              checked
+                            />
+                            <div>
+                              <label for="btnradio1">
+                                <div class="">
+                                  <div class="type">Small</div>
+                                  <div class="text-center p-3">
+                                    <h3 class="fw-bold">$15</h3>
+
+                                    <h5
+                                      class="text-success mb-3 text-center"
+                                      style="color: #052c65 !important"
+                                    >
+                                      [view sample image]
+                                    </h5>
+
+                                    <div class="text-center mt-4">
+                                      <img
+                                        src="./assets/images/smallbin.png"
+                                        height="80"
+                                        alt="bin"
+                                        class="mx-auto"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </label>
+                              <div class="p-3">
+                                <div class="mb-3">
+                                  <select
+                                    class="form-select"
+                                    aria-label="Default select example"
+                                  >
+                                    <option disabled="" selected="">
+                                      Quantity
+                                    </option>
+                                  </select>
+                                </div>
+                                <div class="mb-3">
+                                  <select
+                                    class="form-select"
+                                    aria-label="Default select example"
+                                  >
+                                    <option disabled="" selected="">
+                                      Color
+                                    </option>
+                                  </select>
+                                </div>
+                                <div class="mb-3">
+                                  <div class="d-flex">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="exampleFormControlInput1"
+                                      placeholder="CTR123456789"
+                                    />
+                                    <img
+                                      src="./assets/images/icons/info.svg"
+                                      alt=""
+                                      width="20"
+                                      class="ms-2"
+                                    />
+                                  </div>
+                                </div>
+                                <div class="mb-3">
+                                  <div
+                                    class="border-1 border border-success rounded-2 overflow-hidden pointer-event"
+                                  >
+                                    <img
+                                      src="./assets/images/upload.png"
+                                      alt=""
+                                      width="100%!important"
+                                    />
+                                  </div>
+                                </div>
+                                <div class="mb-3">
+                                  <div
+                                    class="border-1 border border-success rounded-2 overflow-hidden pointer-event"
+                                  >
+                                    <img
+                                      src="./assets/images/upload.png"
+                                      alt=""
+                                      width="100%!important"
+                                    />
+                                  </div>
+                                </div>
+                                <div class="mt-4">
+                                  <h6 class="d-flex align-items-center mb-2">
+                                    <img
+                                      src="./assets/images/icons/arrow.png"
+                                      width="8"
+                                      class="d-inline-block me-2"
+                                    />
+                                    Note or instruction for cleaner
+                                  </h6>
+
+                                  <textarea
+                                    name=""
+                                    placeholder="Bin is by the main gate"
+                                    class="form-control"
+                                    id=""
+                                    cols="30"
+                                    rows="10"
+                                  ></textarea>
+                                </div>
+                                <div class="mt-4">
+                                  <div class="d-flex gap-2 g-md-4 flex-column">
+                                    <h6 class="d-flex align-items-center mb-0">
+                                      <img
+                                        src="./assets/images/icons/arrow.png"
+                                        width="8"
+                                        class="d-inline-block me-2"
+                                      />
+                                      This request is for
+                                    </h6>
+                                    <div>
+                                      <div class="">
+                                        <div
+                                          class="form-check form-check-inline"
+                                        >
+                                          <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            id="inlineCheckbox134"
+                                            name="status"
+                                          />
+                                          <label
+                                            class="form-check-label"
+                                            for="inlineCheckbox134"
+                                            >Me</label
+                                          >
+                                        </div>
+                                        <div
+                                          class="form-check form-check-inline"
+                                        >
+                                          <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            id="inlineCheckbox234"
+                                            name="status"
+                                          />
+                                          <label
+                                            class="form-check-label"
+                                            for="inlineCheckbox234"
+                                            >Guest</label
+                                          >
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="mt-2">
+                                    <input
+                                      type="text"
+                                      class="form-control form-control-sm h-100 py-2"
+                                      placeholder="Please state Guest Name"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div>
+                            <input
+                              type="checkbox"
+                              class="btn-check form-check-input"
+                              name="btnradio2"
+                              id="btnradio2"
+                              autocomplete="off"
+                            />
+                            <div>
+                              <label for="btnradio2">
+                                <div class="">
+                                  <div class="type">Medium</div>
+                                  <div class="text-center p-3">
+                                    <h3 class="fw-bold">$20</h3>
+                                    <h5
+                                      class="text-success mb-3 text-center"
+                                      style="color: #052c65 !important"
+                                    >
+                                      [view sample image]
+                                    </h5>
+                                    <div class="text-center mt-4">
+                                      <img
+                                        src="./assets/images/medbin.png"
+                                        height="80"
+                                        alt="bin"
+                                        class="mx-auto"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </label>
+                              <div class="p-3">
+                                <div class="mb-3">
+                                  <select
+                                    class="form-select"
+                                    aria-label="Default select example"
+                                  >
+                                    <option disabled="" selected="">
+                                      Quantity
+                                    </option>
+                                  </select>
+                                </div>
+                                <div class="mb-3">
+                                  <select
+                                    class="form-select"
+                                    aria-label="Default select example"
+                                  >
+                                    <option disabled="" selected="">
+                                      Color
+                                    </option>
+                                  </select>
+                                </div>
+                                <div class="mb-3">
+                                  <div class="d-flex">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="exampleFormControlInput1"
+                                      placeholder="CTR123456789"
+                                    />
+                                    <img
+                                      src="./assets/images/icons/info.svg"
+                                      alt=""
+                                      width="20"
+                                      class="ms-2"
+                                    />
+                                  </div>
+                                </div>
+                                <div class="mb-3">
+                                  <div
+                                    class="border-1 border border-success rounded-2 overflow-hidden pointer-event"
+                                  >
+                                    <img
+                                      src="./assets/images/upload.png"
+                                      alt=""
+                                      width="100%!important"
+                                    />
+                                  </div>
+                                </div>
+                                <div class="mb-3">
+                                  <div
+                                    class="border-1 border border-success rounded-2 overflow-hidden pointer-event"
+                                  >
+                                    <img
+                                      src="./assets/images/upload.png"
+                                      alt=""
+                                      width="100%!important"
+                                    />
+                                  </div>
+                                </div>
+                                <div class="mt-4">
+                                  <h6 class="d-flex align-items-center mb-2">
+                                    <img
+                                      src="./assets/images/icons/arrow.png"
+                                      width="8"
+                                      class="d-inline-block me-2"
+                                    />
+                                    Note or instruction for cleaner
+                                  </h6>
+
+                                  <textarea
+                                    name=""
+                                    placeholder="Bin is by the main gate"
+                                    class="form-control"
+                                    id=""
+                                    cols="30"
+                                    rows="10"
+                                  ></textarea>
+                                </div>
+                                <div class="mt-4">
+                                  <div class="d-flex gap-2 g-md-4 flex-column">
+                                    <h6 class="d-flex align-items-center mb-0">
+                                      <img
+                                        src="./assets/images/icons/arrow.png"
+                                        width="8"
+                                        class="d-inline-block me-2"
+                                      />
+                                      This request is for
+                                    </h6>
+                                    <div>
+                                      <div class="">
+                                        <div
+                                          class="form-check form-check-inline"
+                                        >
+                                          <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            id="inlineCheckbox134"
+                                            name="status"
+                                          />
+                                          <label
+                                            class="form-check-label"
+                                            for="inlineCheckbox134"
+                                            >Me</label
+                                          >
+                                        </div>
+                                        <div
+                                          class="form-check form-check-inline"
+                                        >
+                                          <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            id="inlineCheckbox234"
+                                            name="status"
+                                          />
+                                          <label
+                                            class="form-check-label"
+                                            for="inlineCheckbox234"
+                                            >Guest</label
+                                          >
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="mt-2">
+                                    <input
+                                      type="text"
+                                      class="form-control form-control-sm h-100 py-2"
+                                      placeholder="Please state Guest Name"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div>
+                            <input
+                              type="checkbox"
+                              class="btn-check form-check-input"
+                              name="btnradio3"
+                              id="btnradio3"
+                              autocomplete="off"
+                            />
+                            <div>
+                              <label for="btnradio3">
+                                <div class="">
+                                  <div class="type">Large</div>
+                                  <div class="text-center p-3">
+                                    <h3 class="fw-bold">$25</h3>
+                                    <h5
+                                      class="text-success mb-3 text-center"
+                                      style="color: #052c65 !important"
+                                    >
+                                      [view sample image]
+                                    </h5>
+                                    <div class="text-center mt-4">
+                                      <img
+                                        src="./assets/images/largebin.png"
+                                        height="80"
+                                        alt="bin"
+                                        class="mx-auto"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </label>
+                              <div class="p-3">
+                                <div class="mb-3">
+                                  <select
+                                    class="form-select"
+                                    aria-label="Default select example"
+                                  >
+                                    <option disabled="" selected="">
+                                      Quantity
+                                    </option>
+                                  </select>
+                                </div>
+                                <div class="mb-3">
+                                  <select
+                                    class="form-select"
+                                    aria-label="Default select example"
+                                  >
+                                    <option disabled="" selected="">
+                                      Color
+                                    </option>
+                                  </select>
+                                </div>
+                                <div class="mb-3">
+                                  <div class="d-flex">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="exampleFormControlInput1"
+                                      placeholder="CTR123456789"
+                                    />
+                                    <img
+                                      src="./assets/images/icons/info.svg"
+                                      alt=""
+                                      width="20"
+                                      class="ms-2"
+                                    />
+                                  </div>
+                                </div>
+                                <div class="mb-3">
+                                  <div
+                                    class="border-1 border border-success rounded-2 overflow-hidden pointer-event"
+                                  >
+                                    <img
+                                      src="./assets/images/upload.png"
+                                      alt=""
+                                      width="100%!important"
+                                    />
+                                  </div>
+                                </div>
+                                <div class="mb-3">
+                                  <div
+                                    class="border-1 border border-success rounded-2 overflow-hidden pointer-event"
+                                  >
+                                    <img
+                                      src="./assets/images/upload.png"
+                                      alt=""
+                                      width="100%!important"
+                                    />
+                                  </div>
+                                </div>
+                                <div class="mt-4">
+                                  <h6 class="d-flex align-items-center mb-2">
+                                    <img
+                                      src="./assets/images/icons/arrow.png"
+                                      width="8"
+                                      class="d-inline-block me-2"
+                                    />
+                                    Note or instruction for cleaner
+                                  </h6>
+
+                                  <textarea
+                                    name=""
+                                    placeholder="Bin is by the main gate"
+                                    class="form-control"
+                                    id=""
+                                    cols="30"
+                                    rows="10"
+                                  ></textarea>
+                                </div>
+                                <div class="mt-4">
+                                  <div class="d-flex gap-2 g-md-4 flex-column">
+                                    <h6 class="d-flex align-items-center mb-0">
+                                      <img
+                                        src="./assets/images/icons/arrow.png"
+                                        width="8"
+                                        class="d-inline-block me-2"
+                                      />
+                                      This request is for
+                                    </h6>
+                                    <div>
+                                      <div class="">
+                                        <div
+                                          class="form-check form-check-inline"
+                                        >
+                                          <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            id="inlineCheckbox134"
+                                            name="status"
+                                          />
+                                          <label
+                                            class="form-check-label"
+                                            for="inlineCheckbox134"
+                                            >Me</label
+                                          >
+                                        </div>
+                                        <div
+                                          class="form-check form-check-inline"
+                                        >
+                                          <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            id="inlineCheckbox234"
+                                            name="status"
+                                          />
+                                          <label
+                                            class="form-check-label"
+                                            for="inlineCheckbox234"
+                                            >Guest</label
+                                          >
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="mt-2">
+                                    <input
+                                      type="text"
+                                      class="form-control form-control-sm h-100 py-2"
+                                      placeholder="Please state Guest Name"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-5 d-flex justify-content-center gap-3 gap-lg-4">
+                  <a
+                    href="./verify.html"
+                    class="btn btn-outline-success py-lg-3 px-lg-5"
+                    >Previous</a
+                  >
+
+                  <a
+                    href="./summary.html"
+                    class="btn btn-primary border-success py-lg-3 px-lg-5"
+                    >Continue</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="py-5">
+          <div class="container">
+            <div class="bg-white p-2 d-inline-block rounded-2 mb-4">
+              <img
+                src="./assets/images/logo-full.PNG"
+                alt=""
+                height="30"
+                srcset=""
+              />
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-8">
+                <div class="row">
+                  <div class="col-6 col-lg">
+                    <div>
+                      <h5 class="fw-bold text-white mb-2 mb-lg-3">
+                        Useful Links
+                      </h5>
+                      <a
+                        href="#"
+                        class="text-white h6 mb-3 d-block text-decoration-none"
+                        >Home</a
+                      >
+                      <a
+                        href="#"
+                        class="text-white h6 mb-3 d-block text-decoration-none"
+                        >About Us</a
+                      >
+                      <a
+                        href="#"
+                        class="text-white h6 mb-3 d-block text-decoration-none"
+                        >Services</a
+                      >
+                      <a
+                        href="#"
+                        class="text-white h6 d-block text-decoration-none"
+                        >Contact Us</a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg">
+                    <div>
+                      <h5 class="fw-bold text-white mb-2 mb-lg-3">
+                        Our Services
+                      </h5>
+                      <a
+                        href="#"
+                        class="text-white h6 mb-3 d-block text-decoration-none"
+                        >Exterior Washing</a
+                      >
+                      <a
+                        href="#"
+                        class="text-white h6 mb-3 d-block text-decoration-none"
+                        >Interior Washing</a
+                      >
+                      <a
+                        href="#"
+                        class="text-white h6 mb-3 d-block text-decoration-none"
+                        >Trashbin Cleaning</a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <div class="mt-5 mt-lg-0 mb-4 mb-lg-0">
+                      <h5 class="fw-bold text-white mb-2 mb-lg-3">
+                        Get In Touch
+                      </h5>
+                      <h6 class="text-white lh-base mb-4">
+                        If you have any questions, comments, concerns, please
+                        feel free to contact us.
+                      </h6>
+                      <a
+                        href="mailto:info@turdetail.com"
+                        class="fw-bold text-white border rounded-2 p-2 px-3 mb-0 text-nowrap text-decoration-none h6"
+                        ><img
+                          src="./assets/images/icons/mail.svg"
+                          alt="mail"
+                          class="d-inline"
+                          width="22"
+                        />
+                        info@turdetail.com</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div
+                  class="d-flex flex-column align-items-start align-items-lg-end"
+                >
+                  <div>
+                    <h5 class="fw-bold text-white mb-3">Scan QR to download</h5>
+                    <div class="d-flex gap-4">
+                      <div>
+                        <div class="bg-white p-2 rounded-3">
+                          <img src="./assets/images/qr.png" alt="" width="80" />
+                        </div>
+                        <h5 class="mt-3 text-white">User</h5>
+                      </div>
+                      <div>
+                        <div class="bg-white p-2 rounded-3">
+                          <img src="./assets/images/qr.png" alt="" width="80" />
+                        </div>
+                        <h5 class="mt-3 text-white">Cleaner</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex gap-2">
+              <div>
+                <img
+                  src="./assets/images/icons/facebook.svg"
+                  alt="facebook"
+                  height="40"
+                />
+              </div>
+              <div>
+                <img
+                  src="./assets/images/icons/youtube.svg"
+                  alt="youtube"
+                  height="40"
+                />
+              </div>
+              <div>
+                <img
+                  src="./assets/images/icons/instagram.svg"
+                  alt="instagram"
+                  height="40"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white">
+          <div class="container">
+            <div
+              class="py-3 justify-content-between d-flex flex-column flex-lg-row flex-column-reverse align-items-center"
+            >
+              <div class="text-center text-lg-start mt-3 mt-lg-0">
+                Copyright © 2024 Turdetail. All rights reserved.
+              </div>
+              <div
+                class="d-flex gap-4 flex-column flex-lg-row align-items-center"
+              >
+                <div>
+                  <a href="#" class="text-dark text-decoration-none">English</a>
+                </div>
+                <div>
+                  <a href="#" class="text-dark text-decoration-none">Chicago</a>
+                </div>
+                <div>
+                  <a href="#" class="text-dark text-decoration-none">Privacy</a>
+                </div>
+                <div>
+                  <a href="#" class="text-dark text-decoration-none"
+                    >Terms and Conditions</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/trashbin.js"></script>
+  </body>
+</html>

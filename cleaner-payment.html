@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Payment | Turdetail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png" />
+  </head>
+
+  <body>
+    <div>
+      <div class="">
+        <nav class="navbar navbar-expand-lg top-nav">
+          <div class="container">
+            <a class="navbar-brand p-0" href="index.html">
+              <img src="./assets/images/logo.png" alt="turdetail logo" />
+            </a>
+            <button
+              class="navbar-toggler p-0 border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./general-activity.html">My Wash</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./cleaner-payment.html">Payment</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Earnings </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Requirements </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us </a>
+                </li>
+                <li class="nav-item dropdown d-none">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Link
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="d-flex">
+                <div class="d-none">
+                  <div class="dropdown">
+                    <button
+                      class="btn btn-light dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Sign Up
+                    </button>
+                    <ul
+                      class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end p-0 overflow-hidden"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item py-2"
+                          href="./client-signup.html"
+                        >
+                          <img
+                            src="./assets/images/icons/client.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          As User</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item py-2"
+                          href="./cleaner-signup.html"
+                        >
+                          <img
+                            src="./assets/images/icons/cleaner.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          As Cleaner</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="profile">
+                  <div class="dropdown">
+                    <button
+                      class="p-0 btn btn-link"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img
+                        src="./assets/images/avatar1.png"
+                        width="40"
+                        alt=""
+                        class="object-fit-contain"
+                      />
+                    </button>
+                    <ul
+                      class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end p-0 overflow-hidden"
+                    >
+                      <li>
+                        <div class="header">
+                          <h6 class="text-truncate fw-bold">Kwame Mensah</h6>
+                          <div class="d-flex justify-content-between">
+                            <div>
+                              <p class="fw-bold mb-0 small">Ratings</p>
+                              <p class="mb-0 small">4.8</p>
+                            </div>
+
+                            <div>
+                              <p class="fw-bold mb-0 small">Account Period</p>
+                              <p class="mb-0 small text-end">6months</p>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2" href="./payment.html">
+                          <img
+                            src="./assets/images/icons/client.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Payment</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2" href="#">
+                          <img
+                            src="./assets/images/icons/cleaner.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Messages</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2" href="#">
+                          <img
+                            src="./assets/images/icons/client.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Tax Info</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2" href="#">
+                          <img
+                            src="./assets/images/icons/cleaner.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Insurance</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2" href="#">
+                          <img
+                            src="./assets/images/icons/client.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Referral</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2" href="#">
+                          <img
+                            src="./assets/images/icons/cleaner.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Settings</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item py-2 text-danger"
+                          href="login-client.html"
+                        >
+                          <img
+                            src="./assets/images/icons/cleaner.svg"
+                            height="25"
+                            class="d-inline-block me-2"
+                            alt=""
+                          />
+                          Logout</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="py-4 py-md-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-11 col-lg-7">
+              <div>
+                <div>
+                  <div>
+                    <h3 class="mb-3">How do you want to be paid?</h3>
+                    <div class="mb-4">
+                      <h4 class="text-success d-flex align-items-center">
+                        Add payment
+                      </h4>
+                    </div>
+                    <form class="row g-3">
+                      <div class="col-12">
+                        <div>
+                          <h5 class="text-success d-flex align-items-center">
+                            Instant Pay Out
+                          </h5>
+
+                          <p class="d-flex align-items-center fw-bold mb-0">
+                            Debit Card
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="col-12"
+                        data-bs-toggle="collapse"
+                        href="#multiCollapseSaveCards"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="multiCollapseSaveCards"
+                      >
+                        <h5 class="text-success d-flex align-items-center mb-3">
+                          <img
+                            src="./assets/images/icons/arrow.png"
+                            width="10"
+                            class="d-inline-block me-2"
+                          />
+                          Saved Cards
+                        </h5>
+                        <div
+                          class="mb-3 collapse multi-collapse"
+                          id="multiCollapseSaveCards"
+                        >
+                          <div
+                            class="btn-group btn-group-vertical payment-method gap-3"
+                            role="group"
+                            aria-label="Basic radio toggle button group"
+                          >
+                            <div>
+                              <div class="d-flex position-relative w-100">
+                                <input
+                                  type="radio"
+                                  class="btn-check form-check-input"
+                                  name="btnradio"
+                                  id="btnradio1"
+                                  autocomplete="off"
+                                  checked
+                                />
+                                <label class="btn" for="btnradio1">
+                                  <div
+                                    class="d-flex align-items-center justify-content-between"
+                                  >
+                                    <div class="">
+                                      <img
+                                        src="./assets/images/mastercard.png"
+                                        alt=""
+                                        width="50"
+                                        class="rounded"
+                                      />
+                                    </div>
+                                    <div>
+                                      <div
+                                        class="d-flex flex-column align-items-end"
+                                      >
+                                        <p class="mb-0 text-muted small">
+                                          Kwame Mensah
+                                        </p>
+                                        <p class="mb-0 text-muted small">
+                                          **** **** **** 8986
+                                        </p>
+                                        <p class="mb-0 text-muted small">
+                                          12/26
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </label>
+                              </div>
+                              <div>
+                                <a
+                                  href="./payment.html"
+                                  class="btn btn-link text-info fw-bold justify-content-end edit-card text-decoration-none ps-0 d-flex align-items-center gap-1 btn-sm"
+                                >
+                                  <img
+                                    src="./assets/images/icons/edit.svg"
+                                    width="18"
+                                    alt=""
+                                  />
+                                  Edit
+                                </a>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="d-flex position-relative w-100">
+                                <input
+                                  type="radio"
+                                  class="btn-check form-check-input"
+                                  name="btnradio"
+                                  id="btnradio2"
+                                  autocomplete="off"
+                                />
+                                <label class="btn" for="btnradio2">
+                                  <div
+                                    class="d-flex align-items-center justify-content-between"
+                                  >
+                                    <div class="">
+                                      <img
+                                        src="./assets/images/american.png"
+                                        alt=""
+                                        width="50"
+                                        class="rounded"
+                                      />
+                                    </div>
+                                    <div>
+                                      <div
+                                        class="d-flex flex-column align-items-end"
+                                      >
+                                        <p class="mb-0 text-muted small">
+                                          Kwame Mensah
+                                        </p>
+                                        <p class="mb-0 text-muted small">
+                                          **** **** **** 8986
+                                        </p>
+                                        <p class="mb-0 text-muted small">
+                                          04/27
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </label>
+                              </div>
+                              <div>
+                                <a
+                                  href="./payment.html"
+                                  class="btn btn-link text-info fw-bold justify-content-end edit-card text-decoration-none ps-0 d-flex align-items-center gap-1 btn-sm"
+                                >
+                                  <img
+                                    src="./assets/images/icons/edit.svg"
+                                    width="18"
+                                    alt=""
+                                  />
+                                  Edit
+                                </a>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="d-flex position-relative w-100">
+                                <input
+                                  type="radio"
+                                  class="btn-check form-check-input"
+                                  name="btnradio"
+                                  id="btnradio3"
+                                  autocomplete="off"
+                                />
+                                <label class="btn" for="btnradio3">
+                                  <div
+                                    class="d-flex align-items-center justify-content-between"
+                                  >
+                                    <div class="">
+                                      <img
+                                        src="./assets/images/visa.png"
+                                        alt=""
+                                        width="50"
+                                        class="rounded"
+                                      />
+                                    </div>
+                                    <div>
+                                      <div
+                                        class="d-flex flex-column align-items-end"
+                                      >
+                                        <p class="mb-0 text-muted small">
+                                          Kwame Mensah
+                                        </p>
+                                        <p class="mb-0 text-muted small">
+                                          **** **** **** 8986
+                                        </p>
+                                        <p class="mb-0 text-muted small">
+                                          03/26
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </label>
+                              </div>
+                              <div>
+                                <a
+                                  href="./payment.html"
+                                  class="btn btn-link text-info fw-bold justify-content-end edit-card text-decoration-none ps-0 d-flex align-items-center gap-1 btn-sm"
+                                >
+                                  <img
+                                    src="./assets/images/icons/edit.svg"
+                                    width="18"
+                                    alt=""
+                                  />
+                                  Edit
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <h5
+                          class="text-success d-flex align-items-center mb-3"
+                          class="col-12"
+                          data-bs-toggle="collapse"
+                          href="#multiCollapseAddNewCards"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="multiCollapseAddNewCards"
+                        >
+                          <img
+                            src="./assets/images/icons/arrow.png"
+                            width="10"
+                            class="d-inline-block me-2"
+                          />
+                          Add New Card
+                          <img
+                            src="./assets/images/icons/plus-round.svg"
+                            width="20"
+                            class="ms-1"
+                            alt=""
+                          />
+                        </h5>
+                      </div>
+                      <!-- <div
+                               class="collapse multi-collapse"
+                        id="multiCollapseAddNewCards"
+                      > -->
+                      <div
+                        class="collapse multi-collapse"
+                        id="multiCollapseAddNewCards"
+                      >
+                        <label for="basic-url" class="form-label"
+                          >Name on Card</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="exampleFormControlInput1"
+                          placeholder=""
+                        />
+                      </div>
+                      <div
+                        class="col-12 collapse multi-collapse"
+                        id="multiCollapseAddNewCards"
+                      >
+                        <div class="">
+                          <label for="basic-url" class="form-label"
+                            >Card Number</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="exampleFormControlInput1"
+                            placeholder=""
+                          />
+                        </div>
+                      </div>
+
+                      <div
+                        class="col-12 col-md-6 collapse multi-collapse"
+                        id="multiCollapseAddNewCards"
+                      >
+                        <label for="basic-url" class="form-label"
+                          >Exp. Date</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="exampleFormControlInput1"
+                          placeholder="MM/YY"
+                        />
+                      </div>
+
+                      <div
+                        class="col-12 col-md-6 collapse multi-collapse"
+                        id="multiCollapseAddNewCards"
+                      >
+                        <div class="">
+                          <label for="basic-url" class="form-label">CVV</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="exampleFormControlInput1"
+                            placeholder="123"
+                          />
+                        </div>
+                      </div>
+
+                      <div
+                        class="col-12 collapse multi-collapse"
+                        id="multiCollapseAddNewCards"
+                      >
+                        <div class="">
+                          <label for="basic-url" class="form-label"
+                            >Country</label
+                          >
+                          <select
+                            class="form-select"
+                            aria-label="Default select example"
+                          >
+                            <option disabled="" selected="">
+                              Select country
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                      <div
+                        class="col-12 collapse multi-collapse"
+                        id="multiCollapseAddNewCards"
+                      >
+                        <div class="">
+                          <label for="basic-url" class="form-label"
+                            >Zip Code</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="exampleFormControlInput1"
+                            placeholder="1234"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="col-12 collapse multi-collapse"
+                        id="multiCollapseAddNewCards"
+                      >
+                        <div
+                          class="border-2 border-top border-success mt-5 mb-4"
+                        >
+                          <div
+                            class="d-flex justify-content-between mt-4 flex-wrap mb-3"
+                          >
+                            <div>
+                              <h5>Billing Address</h5>
+                            </div>
+                            <div>
+                              <div class="form-check">
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  value=""
+                                  id="flexCheckChecked"
+                                  checked
+                                />
+                                <label
+                                  class="form-check-label"
+                                  for="flexCheckChecked"
+                                >
+                                  Same as residential address
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div>
+                            <div class="row g-3">
+                              <div
+                                class="col-12 collapse multi-collapse"
+                                id="multiCollapseAddNewCards"
+                              >
+                                <div>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="Address Line 1"
+                                  />
+                                </div>
+                              </div>
+                              <div
+                                class="col-12 collapse multi-collapse"
+                                id="multiCollapseAddNewCards"
+                              >
+                                <div>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="Apartment, Suite or Other"
+                                  />
+                                </div>
+                              </div>
+                              <div
+                                class="col-12 collapse multi-collapsecol-md-6"
+                                id="multiCollapseAddNewCards"
+                              >
+                                <div>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="State"
+                                  />
+                                </div>
+                              </div>
+                              <div
+                                class="col-12 collapse multi-collapsecol-md-6"
+                                id="multiCollapseAddNewCards"
+                              >
+                                <div>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="City"
+                                  />
+                                </div>
+                              </div>
+                              <div
+                                class="col-12 collapse multi-collapsecol-md-6"
+                                id="multiCollapseAddNewCards"
+                              >
+                                <div>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="Zip code"
+                                  />
+                                </div>
+                              </div>
+                              <div
+                                class="col-12 collapse multi-collapse"
+                                id="multiCollapseAddNewCards"
+                              >
+                                <div class="d-flex justify-content-end">
+                                  <div class="form-check">
+                                    <input
+                                      class="form-check-input"
+                                      type="checkbox"
+                                      value=""
+                                      id="flexCheckChecked2"
+                                      checked
+                                    />
+                                    <label
+                                      class="form-check-label"
+                                      for="flexCheckChecked2"
+                                    >
+                                      Set as default payment method.
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="col-12 collapse multi-collapse"
+                        id="multiCollapseAddNewCards"
+                      >
+                        <div class="text-center mt-3 mb-4">
+                          <a
+                            href="./general-activity.html"
+                            class="btn btn-primary border-success py-lg-3 px-lg-5"
+                            >Save</a
+                          >
+                        </div>
+                      </div>
+
+                      <div class="col-12">
+                        <div class="mb-5 mt-4">
+                          <h5
+                            class="text-success d-flex align-items-center mb-3"
+                            data-bs-toggle="collapse"
+                            href="#saveBankAccount"
+                            role="button"
+                            aria-expanded="false"
+                            aria-controls="saveBankAccount"
+                          >
+                            <img
+                              src="./assets/images/icons/arrow.png"
+                              width="10"
+                              class="d-inline-block me-2"
+                            />
+                            Saved Bank Account
+                          </h5>
+                          <div
+                            class="btn-group btn-group-vertical payment-method gap-3 collapse multi-collapse"
+                            id="saveBankAccount"
+                            role="group"
+                            aria-label="Basic radio toggle button group"
+                          >
+                            <div>
+                              <div class="d-flex position-relative w-100">
+                                <input
+                                  type="radio"
+                                  class="btn-check form-check-input"
+                                  name="btnradio"
+                                  id="btnradio10"
+                                  autocomplete="off"
+                                  checked
+                                />
+                                <label class="btn" for="btnradio10">
+                                  <div
+                                    class="d-flex align-items-center justify-content-between"
+                                  >
+                                    <div class="">
+                                      <img
+                                        src="./assets/images/icons/bank.jpeg"
+                                        alt=""
+                                        width="50"
+                                        class="rounded"
+                                      />
+                                    </div>
+                                    <div>
+                                      <div
+                                        class="d-flex flex-column align-items-end"
+                                      >
+                                        <p class="mb-0 text-muted small">
+                                          Kwame Mensah
+                                        </p>
+                                        <p class="mb-0 text-muted small">
+                                          ********86
+                                        </p>
+                                        <p class="mb-0 text-muted small">
+                                          98698766
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </label>
+                              </div>
+                              <div>
+                                <a
+                                  href="./payment.html"
+                                  class="btn btn-link text-info fw-bold justify-content-end edit-card text-decoration-none ps-0 d-flex align-items-center gap-1 btn-sm"
+                                >
+                                  <img
+                                    src="./assets/images/icons/edit.svg"
+                                    width="18"
+                                    alt=""
+                                  />
+                                  Edit
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div>
+                          <h5
+                            class="text-success d-flex align-items-center"
+                            class="text-success d-flex align-items-center mb-3"
+                            data-bs-toggle="collapse"
+                            href="#directDepositForWeeklyPayment"
+                            role="button"
+                            aria-expanded="false"
+                            aria-controls="directDepositForWeeklyPayment"
+                          >
+                            <img
+                              src="./assets/images/icons/arrow.png"
+                              width="10"
+                              class="d-inline-block me-2"
+                            />
+                            Direct Deposit for weekly payment
+                            <img
+                              src="./assets/images/icons/info.svg"
+                              alt=""
+                              width="20"
+                              class="ms-2"
+                            />
+                          </h5>
+                        </div>
+                      </div>
+
+                      <div
+                        class="col-12 collapse multi-collapse"
+                        id="directDepositForWeeklyPayment"
+                      >
+                        <p class="d-flex align-items-center fw-bold mb-0">
+                          Bank Account
+                        </p>
+                      </div>
+                      <div
+                        class="col-12 collapse multi-collapse"
+                        id="directDepositForWeeklyPayment"
+                      >
+                        <div class="">
+                          <label for="basic-url" class="form-label"
+                            >Name on Account</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="exampleFormControlInput1"
+                            placeholder=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="col-12 collapse multi-collapse"
+                        id="directDepositForWeeklyPayment"
+                      >
+                        <div class="">
+                          <label for="basic-url" class="form-label d-flex"
+                            >Routing Number
+                            <img
+                              src="./assets/images/icons/info.svg"
+                              alt=""
+                              width="20"
+                              class="ms-2"
+                          /></label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="exampleFormControlInput1"
+                            placeholder=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="col-12 col-md-6 collapse multi-collapse"
+                        id="directDepositForWeeklyPayment"
+                      >
+                        <div class="">
+                          <label for="basic-url" class="form-label d-flex"
+                            >Account Number
+                            <img
+                              src="./assets/images/icons/info.svg"
+                              alt=""
+                              width="20"
+                              class="ms-2"
+                          /></label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="exampleFormControlInput1"
+                            placeholder="xxxxxxxxxxxx59"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="col-12 col-md-6 collapse multi-collapse"
+                        id="directDepositForWeeklyPayment"
+                      >
+                        <div class="">
+                          <label for="basic-url" class="form-label d-flex"
+                            >Confirm Account Number
+                            <img
+                              src="./assets/images/icons/info.svg"
+                              alt=""
+                              width="20"
+                              class="ms-2"
+                          /></label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="exampleFormControlInput1"
+                            placeholder="xxxxxxxxxxxx59"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="col-12 collapse multi-collapse"
+                        id="directDepositForWeeklyPayment"
+                      >
+                        <div
+                          class="border-top border-bottom pt-3 pb-4 border-success border-2"
+                        >
+                          <label for="basic-url" class="form-label"
+                            >Verify date of birth</label
+                          >
+                          <input
+                            type="date"
+                            class="form-control"
+                            id="exampleFormControlInput1"
+                            placeholder=""
+                          />
+                        </div>
+                      </div>
+
+                      <div>
+                        <div
+                          class="mt-3"
+                          data-bs-toggle="collapse"
+                          href="#addressAssociatedToAccount"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="addressAssociatedToAccount"
+                        >
+                          <h5
+                            class="text-success d-flex align-items-center mb-3"
+                          >
+                            <img
+                              src="./assets/images/icons/arrow.png"
+                              width="10"
+                              class="d-inline-block me-2"
+                            />
+                            Address associated to account
+                          </h5>
+                        </div>
+                      </div>
+                      <div
+                        class="col-12 collapse multi-collapse"
+                        id="addressAssociatedToAccount"
+                      >
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div>
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="exampleFormControlInput1"
+                                placeholder="Address Line 1"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div>
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="exampleFormControlInput1"
+                                placeholder="Apartment, Suite or Other"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-12 col-md-6">
+                            <div>
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="exampleFormControlInput1"
+                                placeholder="State"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-12 col-md-6">
+                            <div>
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="exampleFormControlInput1"
+                                placeholder="City"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-12 col-md-6">
+                            <div>
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="exampleFormControlInput1"
+                                placeholder="Zip code"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="col-12 collapse multi-collapse"
+                        id="addressAssociatedToAccount"
+                      >
+                        <div class="text-center mt-5">
+                          <a
+                            href="./general-activity.html"
+                            class="btn btn-primary border-success py-lg-3 px-lg-5"
+                            >Save</a
+                          >
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="py-5">
+          <div class="container">
+            <div class="bg-white p-2 d-inline-block rounded-2 mb-4">
+              <img
+                src="./assets/images/logo-full.PNG"
+                alt=""
+                height="30"
+                srcset=""
+              />
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-8">
+                <div class="row">
+                  <div class="col-6 col-lg">
+                    <div>
+                      <h5 class="fw-bold text-white mb-2 mb-lg-3">
+                        Useful Links
+                      </h5>
+                      <a
+                        href="#"
+                        class="text-white h6 mb-3 d-block text-decoration-none"
+                        >Home</a
+                      >
+                      <a
+                        href="#"
+                        class="text-white h6 mb-3 d-block text-decoration-none"
+                        >About Us</a
+                      >
+                      <a
+                        href="#"
+                        class="text-white h6 mb-3 d-block text-decoration-none"
+                        >Services</a
+                      >
+                      <a
+                        href="#"
+                        class="text-white h6 d-block text-decoration-none"
+                        >Contact Us</a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg">
+                    <div>
+                      <h5 class="fw-bold text-white mb-2 mb-lg-3">
+                        Our Services
+                      </h5>
+                      <a
+                        href="#"
+                        class="text-white h6 mb-3 d-block text-decoration-none"
+                        >Exterior Washing</a
+                      >
+                      <a
+                        href="#"
+                        class="text-white h6 mb-3 d-block text-decoration-none"
+                        >Interior Washing</a
+                      >
+                      <a
+                        href="#"
+                        class="text-white h6 mb-3 d-block text-decoration-none"
+                        >Trashbin Cleaning</a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <div class="mt-5 mt-lg-0 mb-4 mb-lg-0">
+                      <h5 class="fw-bold text-white mb-2 mb-lg-3">
+                        Get In Touch
+                      </h5>
+                      <h6 class="text-white lh-base mb-4">
+                        If you have any questions, comments, concerns, please
+                        feel free to contact us.
+                      </h6>
+                      <a
+                        href="mailto:info@turdetail.com"
+                        class="fw-bold text-white border rounded-2 p-2 px-3 mb-0 text-nowrap text-decoration-none h6"
+                        ><img
+                          src="./assets/images/icons/mail.svg"
+                          alt="mail"
+                          class="d-inline"
+                          width="22"
+                        />
+                        info@turdetail.com</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div
+                  class="d-flex flex-column align-items-start align-items-lg-end"
+                >
+                  <div>
+                    <h5 class="fw-bold text-white mb-3">Scan QR to download</h5>
+                    <div class="d-flex gap-4">
+                      <div>
+                        <div class="bg-white p-2 rounded-3">
+                          <img src="./assets/images/qr.png" alt="" width="80" />
+                        </div>
+                        <h5 class="mt-3 text-white">User</h5>
+                      </div>
+                      <div>
+                        <div class="bg-white p-2 rounded-3">
+                          <img src="./assets/images/qr.png" alt="" width="80" />
+                        </div>
+                        <h5 class="mt-3 text-white">Cleaner</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex gap-2">
+              <div>
+                <img
+                  src="./assets/images/icons/facebook.svg"
+                  alt="facebook"
+                  height="40"
+                />
+              </div>
+              <div>
+                <img
+                  src="./assets/images/icons/youtube.svg"
+                  alt="youtube"
+                  height="40"
+                />
+              </div>
+              <div>
+                <img
+                  src="./assets/images/icons/instagram.svg"
+                  alt="instagram"
+                  height="40"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white">
+          <div class="container">
+            <div
+              class="py-3 justify-content-between d-flex flex-column flex-lg-row flex-column-reverse align-items-center"
+            >
+              <div class="text-center text-lg-start mt-3 mt-lg-0">
+                Copyright © 2024 Turdetail. All rights reserved.
+              </div>
+              <div
+                class="d-flex gap-4 flex-column flex-lg-row align-items-center"
+              >
+                <div>
+                  <a href="#" class="text-dark text-decoration-none">English</a>
+                </div>
+                <div>
+                  <a href="#" class="text-dark text-decoration-none">Chicago</a>
+                </div>
+                <div>
+                  <a href="#" class="text-dark text-decoration-none">Privacy</a>
+                </div>
+                <div>
+                  <a href="#" class="text-dark text-decoration-none"
+                    >Terms and Conditions</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
